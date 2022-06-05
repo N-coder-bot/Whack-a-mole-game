@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #5489ca;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
